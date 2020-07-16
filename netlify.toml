@@ -1,0 +1,8 @@
+[build]
+  command = ""
+
+[[plugins]]
+package = "./src"
+  [plugins.inputs]
+  #url = 'https://deployed.netlify.app'
+  url = 'http://localhost:8910'
